@@ -24,7 +24,7 @@
   nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
     nav.classList.remove('open'); menuButton.setAttribute('aria-expanded', 'false'); menuButton.textContent = '☰';
   }));
-  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('year').textContent = '2021';
   document.getElementById('contact-form').addEventListener('submit', (event) => {
     event.preventDefault();
     const form = event.currentTarget;
